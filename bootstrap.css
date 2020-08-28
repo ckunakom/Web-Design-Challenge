@@ -366,7 +366,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-weight: 300;
+  font-weight: 500;
   line-height: 1.2;
 }
 
@@ -4629,7 +4629,7 @@ input[type="button"].btn-block {
   padding-top: 0.32421875rem;
   padding-bottom: 0.32421875rem;
   margin-right: 1rem;
-  font-size: 1.171875rem;
+  font-size: x-large;
   line-height: inherit;
   white-space: nowrap;
 }
@@ -10788,7 +10788,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .navbar {
-  font-size: 0.8203125rem;
+  font-size: medium;
   font-weight: bold;
 }
 
@@ -11224,4 +11224,16 @@ label,
 .popover-header {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+}
+
+#imgbox:hover {
+  outline: 0px solid transparent;
+  padding: 5px 5px;
+  border: 2px solid #008cba;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+h4 {
+  color: #008cba
 }
