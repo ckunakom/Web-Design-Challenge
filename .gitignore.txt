@@ -1,6 +1,3 @@
-cities data.ipynb
-data_import.html
-
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
